@@ -28,3 +28,30 @@
   - cannot assign `null`
   - to allow null: `var str: String? = null`
     - but need to `str?.length` or `str!!.length` (less preferred)
+
+### Conditional
+- `if`
+- `when`
+- **Conditional Expressions**
+  - `if` and `when` can be expression
+```kotlin
+val result = when (num) {
+  1 -> "one"
+  2-> {
+    println("the input is 2")
+    "two"
+  }
+  else -> "unknow number"
+}
+```
+- **Advanced `when` Construct**
+```kotlin
+when (x) {
+  5 -> println("x is 5")
+  3*12 -> println("x is 3 * 12")
+  "some string".length -> println("x equals length of some string")
+  is Long -> println("...")
+  in 1..10 -> println("....")
+  !in 1..9 -> println("...")
+}
+```
