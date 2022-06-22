@@ -55,3 +55,25 @@ when (x) {
   !in 1..9 -> println("...")
 }
 ```
+
+### Arrays and Lists
+- Array
+  - fix length
+  - can reassign element
+  - concatenate through "+"
+  - `.isEmpty()`, `contains()`
+- List
+  
+- ArrayList
+  - mutable list
+  - concatenate through "+"
+  - `.add(...)`, `.remove(...)`, `subList(...)`
+
+### Loop
+- `for`
+  - `for (i in 1..100)`
+  - `for (v in list)`
+  - `for ((i, v) in list.withIndex())`
+- `while`
+- `break` and `continue`
+  - `outer@`, `break@outer`
