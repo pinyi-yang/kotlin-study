@@ -77,3 +77,6 @@ when (x) {
 - `while`
 - `break` and `continue`
   - `outer@`, `break@outer`
+
+### functions
+- argument, return type, 
