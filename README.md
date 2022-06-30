@@ -80,3 +80,25 @@ when (x) {
 
 ### functions
 - argument, return type, 
+
+## Object Oriented Program
+Object, Class, Property, Method, interface...
+- `init {}`
+- `class Person(name: String)` vs `class Person(val name: String)`
+- Named Parameters
+
+### Inheritance: Open Class, Abstract Class and Interface
+**Open Class**
+- can be inherited (must explicitly `open` for class and constructor argument to enable inheritance)
+- can be used to create object
+
+**Abstract Class**
+- similar to Open Class
+- but can NOT be used to create object
+- `abstract fun` will be defined in child class
+
+**Interface**
+- more implicit than Abstract Class
+- everything is implicit and must be override in child class
+- class can inherired multiple `interface`: `class Car() : Driveable, Buildable`
+- how to resolve override conflicts
