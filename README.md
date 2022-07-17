@@ -102,3 +102,27 @@ Object, Class, Property, Method, interface...
 - everything is implicit and must be override in child class
 - class can inherired multiple `interface`: `class Car() : Driveable, Buildable`
 - how to resolve override conflicts
+
+**Inheritance**
+- How to prevent child class to inherit a method? (`final`)
+- name conflicts from parents
+  - `override`
+  - `super<T>`
+
+**Data Classes**
+- build in methods `data class SomeClass()`:
+  - `toString`, `equals`, `copy`, `hashCode`
+  - decomposition
+
+**Objects / Singletons**
+```kotlin
+object SomeObject {
+    val name = "singletons"
+}
+```
+
+**Enums**
+- multiple value enums
+- default value for print - `toString()`
+
+### Pakcages
