@@ -125,4 +125,16 @@ object SomeObject {
 - multiple value enums
 - default value for print - `toString()`
 
-### Pakcages
+**Other Notice**
+- setter and getter in kotlin
+
+
+- **visibility**
+  - `private`: most strick, invisible outside
+  - `protected`: visible in subclass
+  - `internal`: can access in the same module
+  - `public`: no restriction. default.
+
+### Generic
+- `class Demo<T>`
+- `fun <T> genFun() {}`
